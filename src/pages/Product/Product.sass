@@ -1,0 +1,48 @@
+.product
+  padding: 50px 0
+  &__inner
+    display: flex
+  &__image
+    flex: 0 1 calc(60% - 40px)
+    margin: 0 40px 0 0
+    display: flex
+    justify-content: center
+    &-img
+      max-height: 500px
+  &__info
+    flex: 0 1 40%
+    &-category
+      background: rgba(#2d3142, .2)
+      color: #2d3142
+      border-radius: 8px
+      padding: 5px 10px
+      font-weight: bold
+    &-title
+      margin: 10px 0 15px
+    &-description
+      font-size: 16px
+    &-quantity
+      display: flex
+      justify-content: space-between
+      align-items: center
+      max-width: 300px
+      margin: 15px 0 20px
+    &-price
+      font-size: 34px
+    &-btn
+      width: 100%
+  &-counter
+    display: flex
+    align-items: center
+    border: 2px solid #cecccc
+    border-radius: 5px
+    padding: 2px 15px
+    &__minus,
+    &__plus
+      color: #a3a2a2
+      font-size: 42px
+      cursor: pointer
+    &__quantity
+      font-size: 34px
+      font-weight: bold
+      margin: 0 20px

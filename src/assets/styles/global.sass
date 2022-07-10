@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap')
+  
+*,
+*::before,
+*::after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html
+  scroll-behavior: smooth
+
+img
+  max-width: 100%
+  display: block
+
+svg
+  display: block
+
+ul
+  list-style: none
+
+a
+  text-decoration: none
+  display: inline-block
+  color: inherit
+
+button,
+input,
+textarea
+  outline: none
+  border: none
+  background: none
+  font-size: inherit
+
+button
+  cursor: pointer
+
+body
+  font-family: 'Lato', sans-serif
+  font-size: 18px
+  font-weight: 400
+  color: #2d3142
+
+.container
+  max-width: 1200px
+  padding: 0 15px
+  margin: 0 auto
+
+.logo
+  font-size: 34px
+  font-weight: bold
+
+.text
+  font-size: 20px
+  color: #6d6a6a
+
+.btn
+  color: #fff
+  background: #2d3142
+  padding: 10px 25px
+  transition: .3s
+  &:hover
+    background: #000
+  &-bad
+    background: #b21e35
+    &:hover
+      background: #830c1e
+
+.center
+  text-align: center
+
+h1
+  font-size: 62px
+
+h2
+  font-size: 48px
+
+h3
+  font-size: 34px
+
+iframe
+  border: none
+  outline: none
+
+.App
+  display: flex
+  flex-direction: column
+  min-height: 100vh

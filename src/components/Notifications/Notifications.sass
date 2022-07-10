@@ -1,0 +1,23 @@
+.notifications
+  position: fixed
+  bottom: 50px
+  right: 20px
+  max-width: 300px
+  width: 100%
+  max-height: 400px
+  overflow-x: hidden
+  &__item
+    padding: 8px 15px
+    color: #fff
+    border-radius: 8px
+    animation: hide 0.3s 1.5s linear forwards
+    &.good
+      background: #007200
+    &.bad
+      background: #b21e35
+    &:not(:last-child)
+      margin: 0 0 10px
+
+@keyframes hide
+  100%
+    transform: translate(400px, 0)
